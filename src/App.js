@@ -45,7 +45,7 @@ function App() {
     <div className="AApp-headerpp">
        <h2>Stopwatch</h2>
        <div>
-        Time : {formatTime(timer)}
+        Time: {formatTime(timer)}
        </div>
        <div>
         {isStop &&  <button value="Start" name="start" onClick={(e)=>handleStartWatch(e)} >Start</button>}
